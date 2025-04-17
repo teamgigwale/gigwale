@@ -1,42 +1,87 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GigWale</title>
+    <title>GigWale - Curating Vibes, Not Just Events</title>
     <style>
         body {
             margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e8f5e9;
-            color: #1b5e20;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f3ef;
+            color: #3a3a3a;
+        }
+        header {
+            background-color: #e6f4e6;
+            padding: 2rem;
             text-align: center;
         }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
+        header img {
+            width: 150px;
         }
-        p {
-            font-size: 1.2rem;
-            max-width: 500px;
+        header h1 {
+            margin-top: 1rem;
+            font-size: 2rem;
+        }
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .service-item {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            width: 250px;
         }
         footer {
-            position: absolute;
-            bottom: 20px;
+            background-color: #e6f4e6;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 2rem;
             font-size: 0.9rem;
-            color: #4caf50;
+        }
+        a {
+            color: #3a3a3a;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>GigWale is Coming Soon!</h1>
-    <p>Your all-in-one destination for artist bookings, coordination, and management. Stay tuned for something amazing.</p>
-    <footer>© 2025 GigWale. All rights reserved.</footer>
+
+    <header>
+        <img src="logo.png" alt="GigWale Logo">
+        <h1>Curating Vibes, Not Just Events</h1>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>At GigWale, we don't just manage gigs — we craft experiences. Born from pure passion for music, art, and vibes, we aim to be the bridge between incredible artists and unforgettable events. Let's build something iconic together.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-item">Artist Booking</div>
+            <div class="service-item">Curation</div>
+            <div class="service-item">Coordination</div>
+            <div class="service-item">Travel & Hospitality</div>
+            <div class="service-item">Artist Marketing (Coming Soon)</div>
+        </div>
+    </section>
+
+    <footer>
+        Contact us: <a href="mailto:teamgigwale@gmail.com">teamgigwale@gmail.com</a> | <a href="https://instagram.com/teamgigwale" target="_blank">Instagram</a><br>
+        &copy; 2025 GigWale. All rights reserved.
+    </footer>
+
 </body>
 </html>
